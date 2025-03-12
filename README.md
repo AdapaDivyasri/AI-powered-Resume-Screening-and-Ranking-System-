@@ -35,7 +35,7 @@ pip install streamlit PyPDF2 pandas scikit-learn
 
 2. Run the Streamlit application:
     bash
-    streamlit run app.py
+    streamlit run Resume_app.py
     
 
 3. Open the application in your web browser.
@@ -66,7 +66,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 python
 # Initialize Streamlit interface
-st.title("Resume Ranking")
+st.title("AI Resume Screening & Candidate Ranking System")
 
 # Upload job description and resumes
 job_description = st.text_area("Job Description", "Enter job description here...")
